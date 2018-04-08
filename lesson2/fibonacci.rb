@@ -11,4 +11,4 @@ def fib(n)
 end
 arr = []
 (1..11).each { |n| arr.push(fib(n)) }
-puts arr
+p arr
